@@ -2,3 +2,9 @@
 // а на выходе показывает все чётные числа от 1 до N.
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
+
+
+using Internal;
+
+Console.WriteLine("Программа нахождения четных чисел от 1 до N. Введите число N");
+int N = Convert.ToInt32(Console.ReadLine());
