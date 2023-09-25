@@ -5,11 +5,12 @@
 
 Console.WriteLine("Программа нахождения четных чисел от 1 до N. Введите число N");
 int N = Convert.ToInt32(Console.ReadLine());
-int Count = 1;
-while (Count <= N)
+int X = 1;
+while (X <= N)
 {
-    if (Count % 2 == 0)
+    if (X % 2 == 0)
     {
-        Console.WriteLine($"Четные сисла {Count}");
+        Console.WriteLine(X + " ");
     }
+       X++;
 }
